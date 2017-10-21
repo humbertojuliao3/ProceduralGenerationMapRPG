@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C63AC9D1F8D51D500AA81C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C63AC9C1F8D51D500AA81C9 /* AppDelegate.m */; };
+		5C63ACA71F8D51D500AA81C9 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C63ACA61F8D51D500AA81C9 /* GameViewController.m */; };
+		5C63ACAA1F8D51D500AA81C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C63ACA81F8D51D500AA81C9 /* Main.storyboard */; };
+		5C63ACAF1F8D51D500AA81C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C63ACAD1F8D51D500AA81C9 /* LaunchScreen.storyboard */; };
+		5C63ACB21F8D51D500AA81C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C63ACB11F8D51D500AA81C9 /* main.m */; };
+		5C63ACC21F8D54E700AA81C9 /* FloorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C63ACB81F8D54E300AA81C9 /* FloorMaker.m */; };
+		5C63ACC31F8D54E700AA81C9 /* DPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C63ACBA1F8D54E400AA81C9 /* DPad.m */; };
+		5C63ACC41F8D54E700AA81C9 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C63ACBC1F8D54E400AA81C9 /* MyScene.m */; };
+		5C63ACC51F8D54E700AA81C9 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C63ACBD1F8D54E500AA81C9 /* Map.m */; };
+		5C63ACC61F8D54E700AA81C9 /* MapTiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C63ACC11F8D54E700AA81C9 /* MapTiles.m */; };
+		5C773E1E1F9BA4BB00478E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C48CDEF1F9B97F6009B7214 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C48CDEF1F9B97F6009B7214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C63AC981F8D51D500AA81C9 /* GeraçãoProcedimentalMapas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GeraçãoProcedimentalMapas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C63AC9B1F8D51D500AA81C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C63AC9C1F8D51D500AA81C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C63ACA51F8D51D500AA81C9 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		5C63ACA61F8D51D500AA81C9 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		5C63ACA91F8D51D500AA81C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C63ACAE1F8D51D500AA81C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C63ACB01F8D51D500AA81C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C63ACB11F8D51D500AA81C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C63ACB81F8D54E300AA81C9 /* FloorMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloorMaker.m; sourceTree = "<group>"; };
+		5C63ACB91F8D54E300AA81C9 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		5C63ACBA1F8D54E400AA81C9 /* DPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPad.m; sourceTree = "<group>"; };
+		5C63ACBB1F8D54E400AA81C9 /* DPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPad.h; sourceTree = "<group>"; };
+		5C63ACBC1F8D54E400AA81C9 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		5C63ACBD1F8D54E500AA81C9 /* Map.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		5C63ACBE1F8D54E500AA81C9 /* FloorMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloorMaker.h; sourceTree = "<group>"; };
+		5C63ACBF1F8D54E500AA81C9 /* Map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		5C63ACC01F8D54E600AA81C9 /* MapTiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapTiles.h; sourceTree = "<group>"; };
+		5C63ACC11F8D54E700AA81C9 /* MapTiles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTiles.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C63AC951F8D51D500AA81C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C63AC8F1F8D51D400AA81C9 = {
+			isa = PBXGroup;
+			children = (
+				5C63AC9A1F8D51D500AA81C9 /* GeraçãoProcedimentalMapas */,
+				5C63AC991F8D51D500AA81C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C63AC991F8D51D500AA81C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C63AC981F8D51D500AA81C9 /* GeraçãoProcedimentalMapas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C63AC9A1F8D51D500AA81C9 /* GeraçãoProcedimentalMapas */ = {
+			isa = PBXGroup;
+			children = (
+				5C63AC9B1F8D51D500AA81C9 /* AppDelegate.h */,
+				5C63AC9C1F8D51D500AA81C9 /* AppDelegate.m */,
+				5C63ACA51F8D51D500AA81C9 /* GameViewController.h */,
+				5C63ACA61F8D51D500AA81C9 /* GameViewController.m */,
+				5C63ACBB1F8D54E400AA81C9 /* DPad.h */,
+				5C63ACBA1F8D54E400AA81C9 /* DPad.m */,
+				5C63ACBE1F8D54E500AA81C9 /* FloorMaker.h */,
+				5C63ACB81F8D54E300AA81C9 /* FloorMaker.m */,
+				5C63ACBF1F8D54E500AA81C9 /* Map.h */,
+				5C63ACBD1F8D54E500AA81C9 /* Map.m */,
+				5C63ACC01F8D54E600AA81C9 /* MapTiles.h */,
+				5C63ACC11F8D54E700AA81C9 /* MapTiles.m */,
+				5C63ACB91F8D54E300AA81C9 /* MyScene.h */,
+				5C63ACBC1F8D54E400AA81C9 /* MyScene.m */,
+				5C63ACA81F8D51D500AA81C9 /* Main.storyboard */,
+				5C63ACAD1F8D51D500AA81C9 /* LaunchScreen.storyboard */,
+				5C63ACB01F8D51D500AA81C9 /* Info.plist */,
+				5C48CDEF1F9B97F6009B7214 /* Assets.xcassets */,
+				5C63ACB11F8D51D500AA81C9 /* main.m */,
+			);
+			path = "GeraçãoProcedimentalMapas";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C63AC971F8D51D500AA81C9 /* GeraçãoProcedimentalMapas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C63ACB51F8D51D500AA81C9 /* Build configuration list for PBXNativeTarget "GeraçãoProcedimentalMapas" */;
+			buildPhases = (
+				5C63AC941F8D51D500AA81C9 /* Sources */,
+				5C63AC951F8D51D500AA81C9 /* Frameworks */,
+				5C63AC961F8D51D500AA81C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GeraçãoProcedimentalMapas";
+			productName = "GeraçãoProcedimentalMapas";
+			productReference = 5C63AC981F8D51D500AA81C9 /* GeraçãoProcedimentalMapas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C63AC901F8D51D400AA81C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Humberto Julião";
+				TargetAttributes = {
+					5C63AC971F8D51D500AA81C9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5C63AC931F8D51D400AA81C9 /* Build configuration list for PBXProject "GeraçãoProcedimentalMapas" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C63AC8F1F8D51D400AA81C9;
+			productRefGroup = 5C63AC991F8D51D500AA81C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C63AC971F8D51D500AA81C9 /* GeraçãoProcedimentalMapas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C63AC961F8D51D500AA81C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C63ACAA1F8D51D500AA81C9 /* Main.storyboard in Resources */,
+				5C773E1E1F9BA4BB00478E81 /* Assets.xcassets in Resources */,
+				5C63ACAF1F8D51D500AA81C9 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C63AC941F8D51D500AA81C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C63ACC31F8D54E700AA81C9 /* DPad.m in Sources */,
+				5C63ACA71F8D51D500AA81C9 /* GameViewController.m in Sources */,
+				5C63ACC61F8D54E700AA81C9 /* MapTiles.m in Sources */,
+				5C63ACB21F8D51D500AA81C9 /* main.m in Sources */,
+				5C63ACC21F8D54E700AA81C9 /* FloorMaker.m in Sources */,
+				5C63ACC41F8D54E700AA81C9 /* MyScene.m in Sources */,
+				5C63ACC51F8D54E700AA81C9 /* Map.m in Sources */,
+				5C63AC9D1F8D51D500AA81C9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C63ACA81F8D51D500AA81C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C63ACA91F8D51D500AA81C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C63ACAD1F8D51D500AA81C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C63ACAE1F8D51D500AA81C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C63ACB31F8D51D500AA81C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C63ACB41F8D51D500AA81C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C63ACB61F8D51D500AA81C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3G98NPYVF;
+				INFOPLIST_FILE = "GeraçãoProcedimentalMapas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HumbertoJuliao.GeracaoProcedimentalMapas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5C63ACB71F8D51D500AA81C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3G98NPYVF;
+				INFOPLIST_FILE = "GeraçãoProcedimentalMapas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HumbertoJuliao.GeracaoProcedimentalMapas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C63AC931F8D51D400AA81C9 /* Build configuration list for PBXProject "GeraçãoProcedimentalMapas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C63ACB31F8D51D500AA81C9 /* Debug */,
+				5C63ACB41F8D51D500AA81C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C63ACB51F8D51D500AA81C9 /* Build configuration list for PBXNativeTarget "GeraçãoProcedimentalMapas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C63ACB61F8D51D500AA81C9 /* Debug */,
+				5C63ACB71F8D51D500AA81C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C63AC901F8D51D400AA81C9 /* Project object */;
+}
